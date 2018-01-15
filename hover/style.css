@@ -1,0 +1,1024 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-22 11:13:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-22 19:39:46
+*/
+body{
+	margin: 0;
+	padding: 0;
+}
+#list{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 1349px;
+	height: 2000px;
+	background-color: #E8CACA;
+}
+#list ul{
+	margin: 0;
+	padding: 0;
+	width: 1349px;
+	height: 2500px;
+	list-style-type: none;
+}
+#list ul li{
+	width: 449.6px;
+	height: 400px;
+	float: left;
+	cursor:pointer;
+	overflow: hidden;
+	position: relative;
+}
+#list ul li figure{
+	width: 449.6px;
+	height: 400px;
+	margin: 0;
+	position: relative;
+}
+
+
+/*...............................1........................*/
+#list ul li .image1 img{
+	transition: transform o.3s;
+	display: block;
+	position: absolute;
+	left: -40px;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image1:hover img{
+	transform: translatex(40px);
+}
+#list ul li .image1 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0.6);
+	transition: all 0.3s linear;
+}
+#list ul li .image1:hover figcaption{
+	background-color: rgba(0,0,0,0);
+
+}
+#list ul li .image1 figcaption h2{
+	font-size: 30px;
+	color: #FCFBFB;
+	text-transform: uppercase;
+	position: absolute;
+	top: 250px;
+	left: 40px;
+	transition: all 0.3s linear;
+}
+#list ul li .image1 figcaption:hover h2{
+	transform: translatey(-20px);
+}
+#list ul li .image1 figcaption p{
+	text-transform: uppercase;
+	color: #FCFBFB;
+	position: absolute;
+	top: 295px;
+	left: 40px;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+#list ul li .image1 figcaption:hover p{
+	opacity: 1;
+	transform: translatey(-20px);
+}
+
+/*.....................2.........................*/
+#list ul li .image2 img{
+	transition: transform o.3s;
+	display: block;
+	position: absolute;
+	left: -40px;
+}
+#list ul li .image2 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0.1);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image2:hover figcaption{
+	background-color: rgba(0,0,0,0.4);
+
+}
+#list ul li .image2 figcaption h2{
+	font-size: 30px;
+	color: #FCFBFB;
+	text-transform: uppercase;
+	position: absolute;
+	top: 130px;
+	left: 130px;
+	transition: all 0.3s linear;
+}
+#list ul li .image2 figcaption:hover h2{
+	transform: translatey(-20px);
+}
+#list ul li .image2 figcaption p{
+	text-transform: uppercase;
+	color: #FCFBFB;
+	position: absolute;
+	top: 295px;
+	left: 80px;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+#list ul li .image2 figcaption:hover p{
+	opacity: 1;
+	transform: translatey(-20px);
+}
+/*..........................3.......................*/
+#list ul li .image3 img{
+	transition: transform o.3s;
+	display: block;
+	position: absolute;
+	left: -40px;
+}
+#list ul li .image3 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image3:hover figcaption{
+	background-color: rgba(0,0,0,0.4);
+
+}
+#list ul li .image3 figcaption h2{
+	font-size: 30px;
+	color: #FCFBFB;
+	text-transform: uppercase;
+	position: absolute;
+	top: 230px;
+	left: 40px;
+	transition: all 0.3s linear;
+}
+#list ul li .image3 figcaption:hover h2{
+	transform: translatey(20px);
+}
+#list ul li .image3 figcaption span{
+	font-size: 30px;
+	color: #DEDEDE;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	left: 260px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image3 figcaption:hover span{
+	opacity: 1;
+	font-weight: 300;
+}
+/*....................4...................................*/
+#list ul li .image4 img{
+	transition: transform o.3s;
+	display: block;
+	position: relative;
+	height: 420px;
+	top: -20px;
+	transition: all 0.3s linear;
+}
+#list ul li .image4:hover img{
+	transform: translatey(20px);
+}
+#list ul li .image4 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image4:hover figcaption{
+	background-color: rgba(0,0,0,0.4);
+
+}
+#list ul li .image4 figcaption h2{
+	font-size: 30px;
+	color: #FCFBFB;
+	text-transform: uppercase;
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	transition: all 0.3s linear;
+}
+#list ul li .image4 figcaption:hover h2{
+	transform: translatey(20px);
+}
+#list ul li .image4 figcaption p{
+	font-size: 12px;
+	color: #DEDEDE;
+	text-transform: uppercase;
+	position: absolute;
+	top: 200px;
+	left: 85px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image4 figcaption:hover p{
+	opacity: 1;
+}
+#list ul li .image4 figcaption .sx{
+	border: 1px solid #EAE5E5;
+	height: 300px;
+	width: 400px;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	border-right: none;
+	border-left: none;
+	opacity: 0;
+}
+
+#list ul li .image4 figcaption:hover .sx{
+	opacity: 1;
+}
+#list ul li .image4 figcaption .zy{
+	border: 1px solid #EAE5E5;
+	height: 360px;
+	width: 360px;
+	position: absolute;
+	top: -55px;
+	left: 40px;
+	border-top: none;
+	border-bottom: none;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image4 figcaption:hover .zy{
+	opacity: 1;
+	transform: translatey(80px);
+}
+/*..................5.............................*/
+#list ul li .image5 img{
+	transition: transform o.3s;
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+#list ul li .image5 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image5:hover figcaption{
+	background-color: rgba(0,0,0,0.4);
+
+}
+#list ul li .image5 figcaption h2{
+	font-size: 30px;
+	height: 74.8px;
+	line-height: 70px;
+	width: 450px;
+	background-color: #F8F1F1;
+	color: #A39B9B;
+	text-transform: uppercase;
+	position: absolute;
+	top: 374.8px;
+	left: 0px;
+	transition: all 0.3s linear;
+}
+#list ul li .image5 figcaption:hover h2{
+	transform: translatey(-74.8px);
+}
+#list ul li .image5 figcaption p{
+	font-size: 16px;
+	font-weight: 700;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 150px;
+	left: 60px;
+	width: 340px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image5 figcaption:hover p{
+	opacity: 1;
+	transform: translatey(-34.8px);
+}
+/*.........................6..............................*/
+#list ul li .image6 img{
+	transition: transform o.3s;
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+#list ul li .image6 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image6:hover figcaption{
+	background-color: rgba(0,0,0,0.4);
+
+}
+#list ul li .image6 figcaption h2{
+	font-size: 30px;
+	color: #FBF5F5;
+	text-transform: uppercase;
+	position: absolute;
+	top: 190px;
+	left: 120px;
+	transition: all 0.3s linear;
+}
+#list ul li .image6 figcaption:hover h2{
+	transform: translatey(-54.8px);
+}
+#list ul li .image6 figcaption p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 190px;
+	left: 60px;
+	width: 340px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image6 figcaption:hover p{
+	opacity: 1;
+}
+#list ul li .image6 figcaption .w{
+	width: 260px;
+	height: 200px;
+	border:1px solid #FAF5F5;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image6 figcaption:hover .w{
+	transform: scale(1.5,1.5);
+	opacity: 1;
+}
+/*...............................7............................*/
+#list ul li .image7 img{
+	transition: transform o.3s;
+	display: block;
+	position: absolute;
+	left: 0px;
+}
+#list ul li .image7 figcaption{
+	height: 400px;
+	width: 449.6px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0px;
+	transition: all 0.3s linear;
+	text-align: right;
+}
+#list ul li .image7 figcaption h2{
+	font-size: 30px;
+	color: #FCFBFB;
+	text-transform: uppercase;
+	position: absolute;
+	top: 40px;
+	left: 180px;
+	transition: all 0.3s linear;
+}
+#list ul li .image7 figcaption:hover h2{
+	transform: translatey(-14.8px);
+}
+#list ul li .image7 figcaption hr{
+	width: 370px;
+	border: 3px solid #FCF9F9;
+	background-color: #FCF9F9;
+	position: absolute;
+	top: 150px;
+	left: 40px;
+	transition: all 0.3s linear;
+}
+#list ul li .image7 figcaption:hover hr{
+	transform: translatey(-50px);
+}
+#list ul li .image7 figcaption p{
+	font-size: 14px;
+	font-weight: 500;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 350px;
+	left: 70px;
+	width: 340px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image7 figcaption:hover p{
+	opacity: 1;
+	transform: translatey(-60px);
+}
+/*................................8...........................*/
+#list ul li .image8 img{
+	width: 500px;
+	height:450px;
+	display: block;
+	position: absolute;
+	left: -25px;
+	top: -25px;
+	transition: all 0.3s linear;
+}
+#list ul li .image8:hover img{
+	transform: scale(0.9,0.9);
+}
+#list ul li .image8 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image8:hover figcaption{
+	background-color: rgba(0,0,0,0.2);
+
+}
+#list ul li .image8 figcaption h2{
+	font-size: 30px;
+	color: #FBF5F5;
+	text-transform: uppercase;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	transition: all 0.3s linear;
+}
+#list ul li .image8 figcaption:hover h2{
+	transform: translatey(-34.8px);
+}
+#list ul li .image8 figcaption p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 190px;
+	left: 80px;
+	width: 280px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image8 figcaption:hover p{
+	opacity: 1;
+	transform: translateY(-30px);
+}
+#list ul li .image8 figcaption .d{
+	width: 260px;
+	height: 120px;
+	border:1px solid #FAF5F5;
+	position: absolute;
+	top: 160px;
+	left: 90px;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image8 figcaption:hover .d{
+	transform: translateY(-30px);
+	opacity: 1;
+}
+/*.....................9..................................*/
+#list ul li .image9 img{
+	width: 500px;
+	height:450px;
+	display: block;
+	position: absolute;
+	left: -25px;
+	top: -25px;
+	transition: all 0.3s linear;
+}
+#list ul li .image9:hover img{
+	transform: translateX(25px);
+}
+#list ul li .image9 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: left;
+}
+#list ul li .image9:hover figcaption{
+	background-color: rgba(0,0,0,0.2);
+
+}
+#list ul li .image9 figcaption h2{
+	font-size: 30px;
+	color: #FBF5F5;
+	text-transform: uppercase;
+	position: absolute;
+	top: 120px;
+	left: 70px;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image9 figcaption p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 190px;
+	left: 40px;
+	width: 280px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image9 figcaption:hover p{
+	opacity: 1;
+	transform: translateX(25px);
+}
+#list ul li .image9 figcaption .d{
+	width: 400px;
+	height: 300px;
+	border:1px solid #FAF5F5;
+	position: absolute;
+	top: 60px;
+	left: 10px;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image9 figcaption:hover .d{
+	transform: translateX(25px);
+	opacity: 1;
+}
+/*...............................10...............................*/
+#list ul li .image10 img{
+	transition: transform o.3s;
+	display: block;
+	position: relative;
+	height: 420px;
+	top: -20px;
+	transition: all 0.3s linear;
+}
+#list ul li .image10 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image10:hover figcaption{
+	background-color: rgba(0,0,0,0.4);
+
+}
+#list ul li .image10 figcaption h2{
+	font-size: 30px;
+	color: #FCFBFB;
+	text-transform: uppercase;
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	transition: all 0.3s linear;
+}
+#list ul li .image10 figcaption:hover h2{
+	transform: translatey(20px);
+}
+#list ul li .image10 figcaption p{
+	font-size: 16px;
+	color: #DEDEDE;
+	text-transform: uppercase;
+	position: absolute;
+	top: 200px;
+	width: 320px;
+	left: 55px;
+	transition: all 0.3s linear;
+}
+#list ul li .image10 figcaption:hover p{
+	transform: translateY(-15px);
+}
+#list ul li .image10 figcaption .sx{
+	border: 1px solid #EAE5E5;
+	height: 290px;
+	width: 290px;
+	position: absolute;
+	top: 64px;
+	left: 75px;
+	border-right: none;
+	border-left: none;
+	opacity: 0;
+	transition: all 0.3s linear;
+	transform-origin: center;
+}
+
+#list ul li .image10 figcaption:hover .sx{
+	opacity: 1;
+	transform: scaleX(1.3);
+}
+#list ul li .image10 figcaption .zy{
+	border: 1px solid #EAE5E5;
+	height: 240px;
+	width: 376px;
+	position: absolute;
+	top: 90px;
+	left: 31px;
+	border-top: none;
+	border-bottom: none;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image10 figcaption:hover .zy{
+	opacity: 1;
+	transform: scaleY(1.2);
+	transform-origin: center;
+}
+/*........................11....................................*/
+#list ul li .image11 img{
+	transition: transform o.3s;
+	display: block;
+	position: relative;
+	height: 480px;
+	width: 520px;
+	top: -30px;
+	left: -30px;
+	transition: all 0.3s linear;
+}
+#list ul li .image11:hover img{
+	transform: scale(0.9,0.9);
+}
+#list ul li .image11 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image10:hover figcaption{
+	background-color: rgba(0,0,0,0.4);
+
+}
+#list ul li .image11 figcaption h2{
+	font-size: 30px;
+	color: #FCFBFB;
+	text-transform: uppercase;
+	position: absolute;
+	top: 90px;
+	left: 100px;
+	transition: all 0.3s linear;
+}
+#list ul li .image11 figcaption:hover h2{
+	transform: translatey(20px);
+}
+#list ul li .image11 figcaption p{
+	font-size: 16px;
+	color: #DEDEDE;
+	text-transform: uppercase;
+	position: absolute;
+	top: 230px;
+	width: 320px;
+	left: 55px;
+	transition: all 0.3s linear;
+}
+#list ul li .image11 figcaption:hover p{
+	transform: translateY(-15px);
+}
+#list ul li .image11 figcaption .sx{
+	border: 1px solid #EAE5E5;
+	width: 290px;
+	height: 1px;
+	position: absolute;
+	top: 200px;
+	left: 70px;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	/*opacity: 0;*/
+	transition: all 0.3s linear;
+	transform-origin: center;
+}
+
+#list ul li .image11 figcaption:hover .sx{
+	/*opacity: 1;*/
+	transform: rotate(-45deg);
+	transform-origin: center;
+}
+#list ul li .image11 figcaption .zy{
+	border: 1px solid #EAE5E5;
+	width: 290px;
+	height: 1px;
+	position: absolute;
+	top: 200px;
+	left: 70px;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	/*opacity: 0;*/
+	transition: all 0.3s linear;
+}
+
+#list ul li .image11 figcaption:hover .zy{
+	/*opacity: 1;*/
+	transform: rotate(45deg);
+	transform-origin: center;
+}
+/*..................................12.....................................*/
+#list ul li .image12 img{
+	width: 500px;
+	height:450px;
+	display: block;
+	position: absolute;
+	left: -25px;
+	top: -25px;
+	transition: all 0.3s linear;
+}
+#list ul li .image12 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image12:hover figcaption{
+	background-color: rgba(0,0,0,0.2);
+
+}
+#list ul li .image12 figcaption h2{
+	font-size: 30px;
+	color: #FBF5F5;
+	text-transform: uppercase;
+	position: absolute;
+	top: 30px;
+	left: 80px;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image12 figcaption p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 240px;
+	left: 70px;
+	width: 280px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image12 figcaption:hover p{
+	opacity: 1;
+	transform: translateY(25px);
+}
+#list ul li .image12 figcaption .d{
+	width: 340px;
+	height: 160px;
+	border:5px solid #FAF5F5;
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image12 figcaption:hover .d{
+	transform: translateY(165px);
+}
+/*...........................13...........................*/
+#list ul li .image13 img{
+	width: 500px;
+	height:450px;
+	display: block;
+	position: absolute;
+	left: -30px;
+	top: -25px;
+	transition: all 0.3s linear;
+}
+#list ul li .image13:hover img{
+		transform: translateX(30px);
+}
+#list ul li .image13 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #126617;
+	background-color: rgba(0,0,0,0.2);
+	transition: all 0.3s linear;
+	text-align: left;
+}
+#list ul li .image13:hover figcaption{
+	background-color: rgba(0,0,0,0.6);
+
+}
+#list ul li .image13 figcaption h2{
+	font-size: 30px;
+	color: #FBF5F5;
+	text-transform: uppercase;
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image13 figcaption p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 100px;
+	left: 370px;
+	width: 400px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image13 figcaption:hover p{
+	opacity: 1;
+	transform: translateX(-325px);
+}
+#list ul li .image13 figcaption hr{
+	width: 10px;
+	/*height: 160px;*/
+	border:2px solid #FAF5F5;
+	position: absolute;
+	top: 90px;
+	left: 40px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+
+#list ul li .image13 figcaption:hover hr{
+	transform: scaleX(25);
+	transform-origin: left;
+	opacity: 1;
+}
+/*..........................14..................................*/
+#list ul li .image14 img{
+	width: 500px;
+	height:450px;
+	display: block;
+	position: absolute;
+	left: -25px;
+	top: -25px;
+	transition: all 0.3s linear;
+}
+#list ul li .image14:hover img{
+	transform: scale(0.9,0.9);
+}
+#list ul li .image14 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image14:hover figcaption{
+	background-color: rgba(0,0,0,0.2);
+
+}
+#list ul li .image14 figcaption h2{
+	font-size: 30px;
+	color: #FBF5F5;
+	text-transform: uppercase;
+	position: absolute;
+	top: 100px;
+	left: 130px;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image14 figcaption p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 170px;
+	left: 90px;
+	width: 280px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image14 figcaption:hover p{
+	opacity: 1;
+	transform:scale(0.8,0.8);
+}
+#list ul li .image14 figcaption .d{
+	width: 400px;
+	height: 360px;
+	border:1px solid #FAF5F5;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+
+#list ul li .image14 figcaption:hover .d{
+	transform: scale(0.9,0.9);
+	opacity: 1;
+}
+/*........................15.............................*/
+#list ul li .image15 img{
+	width: 500px;
+	height:450px;
+	display: block;
+	position: absolute;
+	left: -25px;
+	top: -25px;
+	transition: all 0.3s linear;
+}
+#list ul li .image15:hover img{
+	transform: translateX(25px);
+}
+#list ul li .image15 figcaption{
+	height: 400px;
+	width: 449.6px;
+	position: absolute;
+	top: 0px;
+	background-color: #CBC3C3;
+	background-color: rgba(0,0,0,0);
+	transition: all 0.3s linear;
+	text-align: center;
+}
+#list ul li .image15:hover figcaption{
+	background-color: rgba(0,0,0,0.5);
+
+}
+#list ul li .image15 figcaption h2{
+	font-size: 30px;
+	color: #FBF5F5;
+	text-transform: uppercase;
+	position: absolute;
+	top: 300px;
+	left: 160px;
+	transition: all 0.3s linear;
+}
+
+#list ul li .image15 figcaption p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #FBF7F7;
+	text-transform: uppercase;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 150px;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+#list ul li .image15 figcaption:hover p{
+	opacity: 1;
+	transform:translatex(25px);
+}
+#list ul li .image15 figcaption .d{
+	height: 70px;
+	border:1px solid #FAF5F5;
+	position: absolute;
+	top: 38px;
+	left: 180px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	transition: all 0.3s linear;
+	opacity: 0;
+}
+
+#list ul li .image15 figcaption:hover .d{
+	transform: translatex(25px);
+	opacity: 1;
+}

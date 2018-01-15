@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: myfont;
+    src: url("iconfont.woff");
+}
+header{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #b8b8b8;
+    font-weight: 100;
+    margin-top: 50px;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    color: #d5d5d5;
+}
+section{
+    width: 100%;
+    height:1000px;
+}
+section>div{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+section>div:nth-of-type(1){
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+section>div:nth-of-type(2){
+    background-color: rgba(238, 163, 3, 0.58);
+}
+section>div:nth-of-type(3){
+    background-color: rgba(240, 96, 96, 0.63);
+}
+section>div:nth-of-type(4){
+    background-color: #0e83cd;
+}
+section>div:nth-of-type(5){
+    background-color: #702fa8;
+}
+section>div:nth-of-type(6){
+    background-color: #64bb5d;
+}
+
+section>div>div{
+    width: 100%;
+    height: 110px;
+    margin: 90px auto 40px;
+    /*outline: 1px solid red;*/
+}
+section>div>div>button{
+    width: 180px;
+    height: 50px;
+    color: white;
+    margin: 20px 130px;
+    border: 1px solid white;
+    background-color: transparent;
+    -webkit-transition: all .2s linear;
+    position: relative;
+}
+section>div>div>button:nth-of-type(1){
+    border-radius: 4px;
+}
+section>div>div>button:nth-of-type(2){
+    border-radius: 40px;
+    font-weight: bold;
+}
+section>div>div>button:nth-of-type(3){
+    border-radius: 0;
+}
+section>div>div>button:hover{
+    cursor: pointer;
+}
+
+.one>div>button:hover{
+    border: 1px solid #feffe5;
+    background-color: rgba(255, 246, 210, 0.39);
+}
+section>div>div>button>span{
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    top: 0;left:0;
+    color: white;
+    line-height: 50px;
+    -webkit-transition: all .1s linear;
+}
+section>div>div>button:hover span{
+    top: -10px;
+    opacity: 0;
+}
+.one>div>button:after{
+    content: "MY button";
+    width: 178px;
+    height: 48px;
+    /*color: white;*/
+    position: absolute;
+    top: 10px;left: 0;
+    border-radius: 4px;
+    line-height: 48px;
+    opacity: 0;
+    -webkit-transition: all .2s linear;
+
+}
+.one>div>button:hover:after{
+    top: 0;
+    opacity: 1;
+    color: rgba(201, 127, 0, 0.93);
+}
+
+.two>div>button{
+    overflow: hidden;
+}
+.two>div>button:after{
+    content: "MY button";
+    width: 178px;
+    height: 48px;
+    /*color: white;*/
+    position: absolute;
+    top: 0;left: 0;
+    border-radius: 4px;
+    line-height: 48px;
+    background-color: red;
+    opacity: 0;
+    -webkit-transform: translate(-178px,0);
+    -webkit-transition: all .2s linear;
+}
+.two>div>button:nth-of-type(2):after{
+    border-radius: 40px;
+}
+.two>div>button:hover:after{
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+}
+
+.three>div>button{
+    overflow: hidden;
+}
+.three>div>button:after{
+    content: "MY button";
+    width: 178px;
+    height: 48px;
+    /*color: white;*/
+    position: absolute;
+    top: 0;left: 0;
+    border-radius: 4px;
+    line-height: 48px;
+    background-color: rgba(24, 178, 245, 0.85);
+    opacity: 0;
+    -webkit-transform: rotate(-90deg);
+    transform-origin: left bottom;
+    -webkit-transition: all .2s linear;
+}
+.three>div>button:nth-of-type(2):after{
+    border-radius: 40px;
+}
+.three>div>button:hover:after{
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+}
+
+.four>div>button{
+    overflow: hidden;
+    background-color: white;
+}
+.four>div>button:hover{
+    background-color: rgba(210, 175, 255, 0.93);
+}
+.four>div>button>span{
+    color: black;
+}
+.four>div>button:after{
+    content: "MY button";
+    width: 178px;
+    height: 48px;
+    color: #7917ad;
+    position: absolute;
+    top: 0;left: 0;
+    border-radius: 4px;
+    line-height: 48px;
+    opacity: 0;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(90deg);
+    -webkit-transition: all .3s linear;
+}
+.four>div>button:nth-of-type(2):after{
+    border-radius: 40px;
+}
+.four>div>button:hover:after{
+    opacity: 1;
+    color: white;
+    -webkit-transform: rotate(0deg);
+}
+
+.five>div>button{
+    /*overflow: hidden;*/
+    background-color: white;
+}
+.five>div>button:hover{
+    background-color: rgba(248, 109, 109, 0.93);
+}
+.five>div>button>span{
+    color: black;
+}
+.five>div>button:after{
+    content: " MY button ";
+    width: 178px;
+    height: 48px;
+    position: absolute;
+    top: -1px;left:-1px;
+    border-radius: 4px;
+    line-height: 48px;
+    opacity: 0;
+    border: 1px solid rgba(253, 248, 255, 0.87);
+    -webkit-transform: scale(1.3);
+    -webkit-transition: all .3s linear;
+}
+.five>div>button:nth-of-type(3):after{
+    border-radius: 0;
+}
+.five>div>button:nth-of-type(2):after{
+    border-radius: 40px;
+}
+.five>div>button:hover:after{
+    opacity: 1;
+    color: white;
+    -webkit-transform: scale(1);
+}

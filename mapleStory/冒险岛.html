@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冒险岛</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #game{
+            width: 100%;
+            height: 660px;
+            position: absolute;
+            background-image: url("image/bg.jpg");
+            background-size: 100% 100%;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        #point{
+            width: 150px;
+            height: 50px;
+            background-image: url("image/ui/RunnerGame.gif");
+            position: absolute;
+            right: 0;
+            top: 15px;
+            z-index: 1;
+        }
+        #pointnum{
+            width: 100px;
+            height: 25px;
+            position: absolute;
+            right: 0;
+            top: 25px;
+            font-size: 15px;
+            color: #2b333b;
+            line-height: 25px;
+            text-align: left;
+        }
+        #gameover{
+            width: 220px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            margin-left: -110px;
+            top: 240px;
+            background-image: url("image/ui/tipBg.png");
+            background-size: 100% 100%;
+            display: none;
+            z-index: 9;
+        }
+        #gameover h1{
+            width: 75%;
+            padding: 5%;
+            margin: 5px auto;
+            font-size: 25px;
+            font-weight: 100;
+            color: black;
+            text-align: left;
+        }
+        #spanpoint{
+            font-size: 25px;
+            color: red;
+        }
+        #sure{
+            position: absolute;
+            bottom: 15px;
+            right: 20px;
+            background-image: url("image/ui/tipY.gif");
+            background-size: 100% 100%;
+            width: 60px;
+            height: 30px;
+        }
+        #exp{
+            width: 32px;
+            height: 170px;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            background-image: url("image/ui/exp0.png");
+        }
+        #boom{
+            width: 33px;
+            height: 10px;
+            position: absolute;
+            top: 225px;
+            left: 0;
+            background-image: url("image/ui/boom/boom3.png");
+            background-size: 100% 100%;
+        }
+        #game img{
+            position: absolute;
+            z-index: 2;
+        }
+        #return{
+            width: 80px;
+            height: 35px;
+            position: absolute;
+            left: 0;
+            top: 10px;
+        }
+        #return a{
+            display: block;
+            width: 80px;
+            height: 35px;
+            background-image: url("image/ui/back.gif");
+            background-size: 100% 100%;
+        }
+        #clock{
+            width: 200px;
+            height: 40px;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            margin-left: -100px;
+            z-index: 9;
+        }
+        #time2{
+            margin-left: 45px;
+        }
+        #time3{
+            margin-left: 80px;
+        }
+        #time4{
+            margin-left: 115px;
+        }
+        #time5{
+            margin-left: 160px;
+        }
+    </style>
+</head>
+<body>
+<div id="game">
+    <div id="clock">
+        <img src="image/num/0.gif" id="time1"/>
+        <img src="image/num/1.gif" id="time2"/>
+        <img src="image/num/d.png" id="time3"/>
+        <img src="image/num/3.gif" id="time4"/>
+        <img src="image/num/0.gif" id="time5"/>
+    </div>
+    <button id="return">
+        <a href="冒险岛开始界面.html"></a>
+    </button>
+    <div id="point">
+        <div id="pointnum"></div>
+    </div>
+    <div id="gameover">
+        <h1>
+            游戏结束  !<br/>
+        </h1>
+        <button id="sure"></button>
+    </div>
+    <div id="exp"></div>
+    <div id="boom"></div>
+</div>
+<audio src="music/m9.mp3" autoplay="autoplay" loop="loop" id="bgmusic"></audio>
+</body>
+<script type="text/javascript" src="冒险岛.js">
+</script>
+</html>

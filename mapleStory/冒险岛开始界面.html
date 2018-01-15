@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>start</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #gamestart{
+            width: 100%;
+            height: 660px;
+            position: absolute;
+            background-image: url("image/readyBg.jpg");
+            background-size: 100% 100%;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
+        .helpimg{
+            margin: 100px 160px;
+            margin-bottom: 0;
+        }
+        .keyspace{
+            width: 200px;
+            margin: 20px 160px;
+            margin-bottom: 0;
+            height: 50px;
+            font-size: 15px;
+        }
+        .keyspace img,.keyenter img{
+            vertical-align: middle;
+        }
+        .keyspace span,.keyenter span{
+            font-size: 16px;
+            color: red;
+            font-weight: 900;
+        }
+        .keyenter{
+            width: 200px;
+            margin: 0 160px;
+            height: 50px;
+            font-size: 15px;
+        }
+        .rule{
+            width: 245px;
+            height: 245px;
+            margin: 0 160px;
+        }
+        .expboom{
+            width: 40px;
+            height: 80px;
+            float: left;
+
+        }
+        .rule h2{
+            font-size: 15px;
+            line-height: 1.4;
+            color: #2b333b;
+            font-weight: 100;
+        }
+        .rule span{
+            font-size: 16px;
+            color: red;
+            font-weight: 900;
+        }
+        #startbtn{
+            width: 250px;
+            height: 66px;
+            margin: 0 245px;
+        }
+        #startbtn a{
+            display: block;
+            width: 250px;
+            height: 66px;
+            background-image: url("image/start.gif");
+        }
+    </style>
+</head>
+<body>
+<div id="gamestart">
+    <img src="image/help/Help.png" class="helpimg"/>
+    <div class="keyspace">
+        <img  src="image/help/Help1.png"/>
+        <span>长按</span>空格键攻击！
+    </div>
+    <div class="keyenter">
+        <img  src="image/help/Help2.png"/>
+        伤害有<span>延迟</span>！
+    </div>
+    <div class="rule">
+        <div class="expboom">
+            <img  src="image/help/boom.gif"/>
+            <img  src="image/help/exp.gif"/>
+        </div>
+        <h2>一个格子为一个大招</h2> <br/>
+        <h2>此乃<span>经验瓶</span>，经验满了</h2><br/>
+        后，宝贝龙会<span>进化</span>，终极状<br/>
+        态会有<span>龙卷风</span>等你<span>探索</span>！<br/>
+        <span>游戏时间</span>为<span>90</span>秒哦！
+    </div>
+    <div id="startbtn">
+        <a href="冒险岛.html"></a>
+    </div>
+</div>
+</body>
+</html>
